@@ -4,7 +4,7 @@
     <meta name="description" content="mastodonのROクラスタ向けインスタンスの説明。"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>RO丼 - ro-mastodon.puyo.jp</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -13,7 +13,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     
     <link rel="stylesheet" href="https://ro.mukya.net:8443/items/roicon.css" type="text/css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <style>
       a {
@@ -26,41 +29,28 @@
     </style>
   </header>
   <body>
-    <div class="container">
-
+    <div class="container">   
       <div class="slider">
-	<ul class="slides">
+	<ul class="slider01 slick-slider">
+	  <li class="center-align">
+	    <img src="/images/title.png">
+	  </li>
+<!--
 	  <li>
-	    <img src="images/title.png"> <!-- random image -->
-	    <div class="caption center-align">
-	      <h3>RO-mastodon</h3>
-	      <h5 class="light grey-text text-lighten-3"></h5>
-	    </div>
+	    <img src="https://ro-mastodon.s3-ap-northeast-1.amazonaws.com/media_attachments/files/000/001/086/original/7f68db0254d638a6.jpg">
 	  </li>
 
 	  <li>
-	    <img src="https://ro-mastodon.s3-ap-northeast-1.amazonaws.com/media_attachments/files/000/001/086/original/7f68db0254d638a6.jpg"> <!-- random image -->
-	    <div class="caption center-align">
-	      <h3></h3>
-	      <h5 class="light grey-text text-lighten-3"></h5>
-	    </div>
+	    <img src="https://ro-mastodon.s3-ap-northeast-1.amazonaws.com/media_attachments/files/000/001/101/original/3702d6a5c6084627.jpg">
 	  </li>
-
-	  <li>
-	    <img src="https://ro-mastodon.s3-ap-northeast-1.amazonaws.com/media_attachments/files/000/001/101/original/3702d6a5c6084627.jpg"> <!-- random image -->
-	    <div class="caption center-align">
-	      <h3></h3>
-	      <h5 class="light grey-text text-lighten-3"></h5>
-	    </div>
-	  </li>
-
+-->
 	</ul>
       </div>
 
 
       <div class="row" id="first">
 	<div class="col s12">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">RO丼とは</span>
 	      <div class="divider"></div>
@@ -82,7 +72,7 @@
 	</div>
 	
 	<div class="col s12" id="rule">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">おやくそく</span>
 	      <div class="divider"></div>
@@ -124,7 +114,7 @@
 	</div>
 
 	<div class="col s12" id="about">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">どんな感じなの？</span>
 	      <div class="divider"></div>
@@ -145,7 +135,7 @@
 	</div>
 
 	<div class="col s12" id="notice">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">注意事項など</span>
 	      <div class="divider"></div>
@@ -166,7 +156,7 @@
 	</div>
 
 	<div class="col s12" id="useful">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">覚えておくと便利なこと</span>
 	      <div class="divider"></div>
@@ -203,7 +193,7 @@
 	</div>
 
 	<div class="col s12" id="bot">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">BOTについて</span>
 	      <div class="divider"></div>
@@ -221,7 +211,7 @@
 	</div>
 	
 	<div class="col s12" id="link">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">リンクについて</span>
 	      <div class="divider"></div>
@@ -235,7 +225,7 @@
 	</div>
 
 	<div class="col s12" id="policy">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">運営方針について</span>
 	      <div class="divider"></div>
@@ -261,7 +251,7 @@
 	</div>
 
 	<div class="col s12" id="faq">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">FAQ</span>
 	      <div class="divider"></div>
@@ -308,7 +298,7 @@
 
         
 	<div class="col s12">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <span class="card-title">立てた人</span>
 	      <p>
@@ -322,7 +312,7 @@
 	</div>
 
 	<div class="col s12">
-	  <div class="card  deep-purple darken-4">
+	  <div class="card  indigo darken-2">
 	    <div class="card-content white-text">
 	      <p>
 		&copy; Gravity Co., Ltd. & LeeMyoungJin(studio DTDS) All rights reserved.<br />
@@ -337,9 +327,9 @@
     </div>
   </body>
   <script>
-    $(document).ready(function(){
-    $('.slider').slider();
-    });
+//    $('.slides').slick({
+//        autoplay: true,
+//    });
   </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
