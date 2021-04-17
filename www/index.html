@@ -5,10 +5,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>RO丼 - ro-mastodon.puyo.jp</title>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="stylesheet" href="http://ro.mukya.net:8080/items/roicon.css" type="text/css" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <link rel="stylesheet" href="https://ro.mukya.net:8443/items/roicon.css" type="text/css" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
     <style>
       a {
       text-decoration: underline;
@@ -25,7 +31,7 @@
       <div class="slider">
 	<ul class="slides">
 	  <li>
-	    <img src="/images/title.png"> <!-- random image -->
+	    <img src="images/title.png"> <!-- random image -->
 	    <div class="caption center-align">
 	      <h3>RO-mastodon</h3>
 	      <h5 class="light grey-text text-lighten-3"></h5>
@@ -54,7 +60,7 @@
 
       <div class="row" id="first">
 	<div class="col s12">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">RO丼とは</span>
 	      <div class="divider"></div>
@@ -76,13 +82,13 @@
 	</div>
 	
 	<div class="col s12" id="rule">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">おやくそく</span>
 	      <div class="divider"></div>
 	      <div class="section center">
 
-		<img src="/images/oyakusoku.png">
+		<img src="images/oyakusoku.png">
 		<br />
 		(イラスト: @poteko_ro さん thx!!)<br />
 	      </div>
@@ -118,7 +124,7 @@
 	</div>
 
 	<div class="col s12" id="about">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">どんな感じなの？</span>
 	      <div class="divider"></div>
@@ -139,7 +145,7 @@
 	</div>
 
 	<div class="col s12" id="notice">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">注意事項など</span>
 	      <div class="divider"></div>
@@ -150,7 +156,7 @@
 		添付出来る画像・動画のサイズは16Mbyteまでになっています。画像は1つにつき最大でも500kbyteくらいまでにするといい感じです。
 	      </div>
 	      <div class="section">
-		RO丼自体のメンテナンス情報などは twitter で発信しています。落ちてる場合などはこちらを参照ください。
+		RO丼自体のメンテナンス情報などは <a href="https://twitter.com/noriko_ro" target="_blank">twitter</a> でも発信しています。落ちてる場合などはこちらを参照ください。
 	      </div>
 	      <div class="section">
 		あくまで個人が出来る範囲で趣味で運営しています。そのところご理解ください。
@@ -160,7 +166,7 @@
 	</div>
 
 	<div class="col s12" id="useful">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">覚えておくと便利なこと</span>
 	      <div class="divider"></div>
@@ -197,7 +203,7 @@
 	</div>
 
 	<div class="col s12" id="bot">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">BOTについて</span>
 	      <div class="divider"></div>
@@ -215,7 +221,7 @@
 	</div>
 	
 	<div class="col s12" id="link">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">リンクについて</span>
 	      <div class="divider"></div>
@@ -229,7 +235,7 @@
 	</div>
 
 	<div class="col s12" id="policy">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">運営方針について</span>
 	      <div class="divider"></div>
@@ -238,8 +244,10 @@
 		そこそこの安定運用と投稿されたデータを守るためにそこそこのサーバ代等がかかっています。<br />
 		RO丼アンテナ、RO丼日記には広告を掲載しています。収入は（ほとんどないですが）サーバ代等運用資金の一部として利用しています。<br />
 		<a href="https://www.pixiv.net/fanbox/creator/6503693" target="_blank">PixivFANBOX</a>
-		と
-		<a href="https://amzn.to/2EjmlEF" target="_blank">Amazon欲しいものリスト</a>を利用して支援を募っています。<br /><br />
+		や
+		<a href="https://amzn.to/2EjmlEF" target="_blank">Amazon欲しいものリスト</a>を利用して支援を募っています。<br />
+                (一覧、詳細は<a href="http://ro-don.blog.jp/archives/19047398.html" target="_blank">こちら</a>)
+                <br />
 		あくまで個人が趣味の範囲で行っていますので、ご理解ご協力をお願い致します。<br />
 	      </div>
 	      <div class="section">
@@ -251,9 +259,56 @@
 	    </div>
 	  </div>	  
 	</div>
-	
+
+	<div class="col s12" id="faq">
+	  <div class="card  deep-purple darken-4">
+	    <div class="card-content white-text">
+	      <span class="card-title">FAQ</span>
+	      <div class="divider"></div>
+	      <div class="section">
+
+                <ul class="collection with-header teal blue darken-4">
+                  <li class="collection-header blue darken-4">投稿出来ない、ログイン出来ない</li>
+                  <li class="collection-item blue darken-4">
+                    twitter のDMで以下の情報を送ってください。送り先 noriko_ro
+                    <br />
+                    <br />
+                    <ol>
+                      <li>現在の状況(ログイン出来ない、投稿出来ないなど)</li>
+                      <li>RO丼のユーザID</li>
+                      <li>登録しているメールアドレス</li>
+                      <li>使用中のIPアドレス
+                        (<a href="https://www.cman.jp/network/support/go_access.cgi" target="_blank">この辺</a>で調べてください)
+                      </li>
+                    </ol>
+                  </li>
+                </ul>
+
+                <ul class="collection with-header teal blue darken-4">
+                  <li class="collection-header blue darken-4">アカウント削除したい</li>
+                  <li class="collection-item blue darken-4">
+                    できませんが将来的に提供する可能性はあります。
+                  </li>
+                </ul>
+
+                <ul class="collection with-header teal blue darken-4">
+                  <li class="collection-header blue darken-4">アカウント停止された理由が知りたい</li>
+                  <li class="collection-item blue darken-4">
+                    理由に心当たりのない人はお問い合わせください。
+                  </li>
+                </ul>
+
+
+                
+	      </div>
+	      
+	    </div>
+	  </div>	  
+	</div>
+
+        
 	<div class="col s12">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <span class="card-title">立てた人</span>
 	      <p>
@@ -267,7 +322,7 @@
 	</div>
 
 	<div class="col s12">
-	  <div class="card blue-grey darken-1">
+	  <div class="card  deep-purple darken-4">
 	    <div class="card-content white-text">
 	      <p>
 		&copy; Gravity Co., Ltd. & LeeMyoungJin(studio DTDS) All rights reserved.<br />
